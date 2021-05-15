@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #D7D7D7;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER PART*/
+
+header{
+    position: absolute;
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+
+div#headerContainer{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    right: 0px;
+    top: calc(50% - 60px/2);
+
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 0px 15px;
+}
+
+
+ul#ulTopRight{
+    list-style-type: none;
+}
+
+ul#ulTopRight li{
+    display: inline-block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+ul#ulTopRight li a{
+    text-decoration: none;
+}
+
+ul#ulTopRight li#TR a{
+    text-decoration: none;
+    position: absolute;
+    width: 36px;
+    height: 26px;
+    left: calc(50% - 36px/2 - 26px);
+    top: calc(50% - 26px/2);
+    color: rgba(46, 58, 89, 0.2);
+}
+
+ul#ulTopRight li#mark a{
+    text-decoration: none;
+    position: absolute;
+    width: 16px;
+    height: 26px;
+    left: calc(50% - 16px/2);
+    top: calc(50% - 26px/2);
+    color: #2E3A59;
+}
+
+ul#ulTopRight li#EN a{
+    text-decoration: none;
+    position: absolute;
+    width: 36px;
+    height: 26px;
+    left: calc(50% - 36px/2 + 26px);
+    top: calc(50% - 26px/2);
+    color: #2E3A59;
+}
+
+/* LEFT SIDE */
+.leftSide{
+    position: absolute;
+    width: 324px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/* MAIN PART */
+.main{
+    position: absolute;
+    height: 317px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 317px/2 - 22.5px);
+    z-index: 1;
+}
+
+.photo{
+    position: absolute;
+    width: 321px;
+    height: 317px;
+    left: 162px;
+    top: 0px;
+
+}
+
+
+.nameHeader{
+    position: absolute;
+    width: 463px;
+    height: 64px;
+    left: 563px;
+    top: 46px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #2E3A59;
+}
+
+.mainText{
+    position: absolute;
+    width: 761px;
+    height: 46px;
+    left: 563px;
+    top: 147px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #2E3A59;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    left: 563px;
+    top: 230px;
+}
+
+.mail{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.linkedin{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+.github{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 160px;
+    top: 0px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px ;
+}
+
+.medium{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 240px;
+    top: 0px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+.twitter{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 320px;
+    top: 0px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.figma{
+    position: static;
+    width: 40px;
+    height: 40px;
+    left: 400px;
+    top: 0px;
+
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+
+
+
+
+/* FOOTER PART */
+
+footer{
+    position: absolute;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.footer{
+    position: absolute;
+    width: 452px;
+    height: 18px;
+    left: calc(50% - 452px/2);
+    top: calc(50% - 18px/2);
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+    
